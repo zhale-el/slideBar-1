@@ -2,22 +2,43 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
 
-/* font-family: 'Poppins', sans-serif; */
+
 
 /* =========  Varaibles css   =========*/
+
 :root {
+
+/* ==== Colors  ====*/
+
+    --first-color:hsl(248,74%,58%);
+    --black-color:hsl(248,24%,10%);
+    --white-color:#fff;
+    --body-color:hsl(248,100%,99%);
+
+    /* ==== fonts and typography ====*/
+
+    --body-font:font-family: 'Poppins', sans-serif;;
+    --small-font-size:.813rem;
+
 }
 
 /* =========  Responsive typography  =========*/
 
-/* =========  General   =========*/
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@media screen and (min-width:1024px) {
+
+    :root{
+        --small-font-size:.875rem;
+    }
+    
 }
 
 /* =========  Base   =========*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 /* ========= Slidebar   =========*/
 
